@@ -129,6 +129,8 @@ public class LoginPage extends TestBase {
 			ITesseract image = new Tesseract();
 			String str = image.doOCR(new File(path));
 			System.out.println("Image OCR Done");
+			 //System.out.println(" Done changes");
+			 
 			//System.out.println(str);
 			
 			Thread.sleep(1000);
